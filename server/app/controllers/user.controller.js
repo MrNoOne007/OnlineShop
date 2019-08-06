@@ -161,8 +161,8 @@ sendMail = (req, res, mailOptions) => {
         port: 587,
         secure: false, //true for 465, false for other ports
         auth: {
-            user: 'ramicmujo@hotmail.com',
-            pass: 'formax990*/'
+            user: '',
+            pass: ''
         },
         tls: {
             rejectUnauthorized: false
